@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
     });
 });
 const hamburger = document.querySelector('.hamburger');
-const menu = document.querySelector('.menu');
+const menu = document.querySelector('header .menu');
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     menu.classList.toggle('active');

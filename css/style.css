@@ -512,7 +512,7 @@ header {
         transform: rotate(-45deg);
     }
 
-    .menu {
+    header .menu {
         display: block;
         position: fixed;
         top: 0;
@@ -525,21 +525,21 @@ header {
         z-index: 10;
     }
 
-    .menu.active {
+    header .menu.active {
         left: 0;
     }
 
-    .menu li {
+    header .menu li {
         margin: 40px 20px;
     }
 
-    .menu a {
+    header .menu a {
         color: #333;
         text-decoration: none;
         font-weight: 500;
     }
 
-    .menu a:hover {
+    header .menu a:hover {
         color: #e88c0a;
     }
 
